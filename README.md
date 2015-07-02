@@ -6,6 +6,7 @@ Metasploit installatoin script for Debian Wheezy XFCE. Used to install metaspoit
 I made this script so i don't need to use Kali Linux to run Metasploit on Android because running Kali needs rooted device and kernel that supports loop device. So this don't need loop device support and it should technicly work without root but i haven't tested it yet on nonrooted phone. Just be aware that I'm showing this for educational purposes only and I'm not responsible if you do any harm with metasploit.
 
 This script installs metasploit version 3.5.0. Right now newer versions aren't available. If you want to help, you should take a look of metasploit-script-unstable.sh and help me to get it install the latest version of metasploit.
+Note that you got to rune bundle install in metasploit-framework directory before starting msfconsole first time.
 
 How to install metasploit on android using this script in debian noroot:
 
